@@ -1,0 +1,12 @@
+{
+	"rules": {
+		"no-unused-vars": ["warn"],
+		"prefer-destructuring": ["warn"],
+		"no-multiple-empty-lines": ["warn"],
+		"no-trailing-spaces": ["warn"],
+		"prettier/prettier": "error"
+	},
+	"extends": ["eslint:recommended", "plugin:prettier/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "prettier"]
+}
